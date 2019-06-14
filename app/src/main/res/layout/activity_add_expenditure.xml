@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.AddExpenditureActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/user"/>
+
+        <TextView android:layout_width="354dp"
+                  android:layout_height="55dp"
+                  android:text="Ingresa Gasto"
+                  android:textColor="#000"
+                  android:layout_marginTop="30dp"
+                  android:textAlignment="center"
+                  android:layout_gravity="center"
+                  android:textSize="35dp"/>
+
+        <EditText
+
+                android:id="@+id/edtNameEx"
+                android:layout_height="64dp"
+                android:layout_marginTop="50dp"
+                android:textSize="20dp"
+                android:hint="Nombre"
+                android:textColorHint="#bdbdbd"
+                android:drawableLeft="@drawable/nombre"
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:drawablePadding="10dp"
+                android:background="@drawable/redon"
+                android:layout_gravity="center"
+                android:layout_width="300dp"/>
+
+        <EditText
+                android:id="@+id/edtAmountEx"
+                android:layout_height="64dp"
+                android:layout_marginTop="50dp"
+                android:hint="Cantidad"
+                android:textSize="20dp"
+                android:drawableLeft="@drawable/edad"
+                android:paddingLeft="10dp"
+                android:textColorHint="#bdbdbd"
+                android:textColor="#000"
+                android:drawablePadding="10dp"
+                android:background="@drawable/redon"
+                android:layout_gravity="center"
+                android:layout_width="300dp"/>
+
+        <EditText
+                android:id="@+id/edtPriceEx"
+                android:layout_height="64dp"
+                android:layout_marginTop="50dp"
+                android:hint="Precio"
+                android:textSize="20dp"
+                android:textColorHint="#bdbdbd"
+                android:textColor="#000"
+                android:drawableLeft="@drawable/edad"
+                android:paddingLeft="10dp"
+                android:drawablePadding="10dp"
+                android:background="@drawable/redon"
+                android:layout_gravity="center"
+                android:layout_width="300dp"/>
+
+        <Button
+                android:id="@+id/btnAddEx"
+                android:layout_height="64dp"
+                android:layout_marginTop="50dp"
+                android:textColorHint="#bdbdbd"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:text="Guardar"
+                android:layout_marginBottom="50dp"
+                android:drawablePadding="10dp"
+                android:background="@drawable/marcos"
+                android:layout_gravity="center"
+                android:layout_width="250dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
