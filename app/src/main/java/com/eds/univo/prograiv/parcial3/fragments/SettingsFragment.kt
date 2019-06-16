@@ -23,19 +23,11 @@ private const val ARG_PARAM2 = "param2"
  */
 class SettingsFragment : Fragment() {
 
-    private lateinit var spnBackground: Spinner
-    private lateinit var spnButton: Spinner
 
-    val colorArray = arrayOf("Negro", "Azul", "Verde")
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val view = inflater.inflate(R.layout.fragment_settings, container, false)
         // Inflate the layout for this fragment
-        spnBackground = view.findViewById(R.id.spnBackground)
-        spnButton = view.findViewById(R.id.spnButton)
-
-        spnBackground.adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, colorArray)
-
         return view
     }
 

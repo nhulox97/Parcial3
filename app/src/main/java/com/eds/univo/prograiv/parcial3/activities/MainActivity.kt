@@ -1,5 +1,6 @@
 package com.eds.univo.prograiv.parcial3.activities
 
+import android.content.Intent
 import android.os.Bundle
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
@@ -82,11 +83,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 transaction.commit()
             }
             R.id.nav_tools -> {
-                val manager = supportFragmentManager
-                val transaction = manager.beginTransaction()
-                transaction.replace(R.id.main_container, settingsFragment)
-                transaction.addToBackStack(null)
-                transaction.commit()
+                startActivity(Intent(this, SettingsActivity::class.java))
             }
 
         }

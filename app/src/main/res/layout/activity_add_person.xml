@@ -29,9 +29,10 @@
 
         <EditText
                 android:id="@+id/edtName"
-                android:layout_width="375dp"
+                android:layout_width="300dp"
                 android:layout_height="64dp"
-                android:layout_marginTop="50dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="30dp"
                 android:textSize="25dp"
                 android:hint="Nombre"
                 android:textColorHint="#bdbdbd"
@@ -40,13 +41,14 @@
                 android:textColor="#000"
                 android:drawablePadding="10dp"
                 android:background="@drawable/redon"
-                android:layout_marginLeft="17dp"/>
+                />
 
         <EditText
                 android:id="@+id/edtPhoneNumber"
-                android:layout_width="375dp"
+                android:layout_width="300dp"
                 android:layout_height="64dp"
-                android:layout_marginTop="50dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="30dp"
                 android:hint="Numero de telefono"
                 android:textSize="25dp"
                 android:textColorHint="#bdbdbd"
@@ -54,14 +56,14 @@
                 android:drawableLeft="@drawable/edad"
                 android:paddingLeft="10dp"
                 android:drawablePadding="10dp"
-                android:background="@drawable/redon"
-                android:layout_marginLeft="17dp"/>
+                android:background="@drawable/redon"/>
 
         <EditText
                 android:id="@+id/edtDUI"
-                android:layout_width="375dp"
+                android:layout_width="300dp"
                 android:layout_height="64dp"
-                android:layout_marginTop="50dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="30dp"
                 android:hint="DUI"
                 android:textSize="25dp"
                 android:textColorHint="#bdbdbd"
@@ -69,8 +71,7 @@
                 android:drawableLeft="@drawable/dui"
                 android:paddingLeft="10dp"
                 android:drawablePadding="10dp"
-                android:background="@drawable/redon"
-                android:layout_marginLeft="17dp"/>
+                android:background="@drawable/redon"/>
 
 
         <Button

@@ -67,7 +67,7 @@
                   android:textSize="20dp"
                   android:textColorHint="#bdbdbd"
                   android:textColor="#000"
-                  android:drawableLeft="@drawable/edad"
+                  android:drawableLeft="@drawable/dui"
                   android:paddingLeft="10dp"
                   android:drawablePadding="10dp"
                   android:background="@drawable/redon"

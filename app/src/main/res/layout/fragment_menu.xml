@@ -7,35 +7,53 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         tools:context=".fragments.MenuFragment">
 
+
+    <ImageView android:layout_width="150dp"
+               android:layout_height="150dp"
+               android:background="@drawable/user"
+               app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginTop="8dp"
+               app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+               android:layout_marginStart="8dp" android:layout_marginBottom="8dp"
+               app:layout_constraintBottom_toTopOf="@+id/employees_activity"
+               app:layout_constraintHorizontal_bias="0.497" app:layout_constraintVertical_bias="0.277"/>
     <Button
             android:id="@+id/employees_activity"
             android:text="Empleados"
-            android:layout_marginTop="100dp"
+            android:textSize="22dp"
+            android:textColor="#fff"
+            android:layout_marginTop="256dp"
+            android:background="@drawable/boton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_width="192dp"
+            android:layout_height="57dp" app:layout_constraintHorizontal_bias="0.502"/>
 
     <Button
             android:id="@+id/persons_activity"
             android:text="Personas"
-            android:layout_marginTop="100dp"
+            android:textColor="#fff"
+            android:textSize="22dp"
+            android:layout_marginTop="116dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+            android:background="@drawable/boton"
             app:layout_constraintTop_toTopOf="@+id/employees_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_width="192dp"
+            android:layout_height="57dp" app:layout_constraintHorizontal_bias="0.502"/>
 
     <Button
             android:id="@+id/expenditure_activity"
             android:text="Gastos"
-            android:layout_marginTop="100dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_marginTop="116dp"
+            android:textColor="#fff"
+            android:background="@drawable/boton"
+            android:layout_width="192dp"
+            android:textSize="22dp"
+            android:layout_height="57dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/persons_activity"/>
+            app:layout_constraintTop_toTopOf="@+id/persons_activity" app:layout_constraintHorizontal_bias="0.497"/>
 
 
     <!-- <LinearLayout
